@@ -3,3 +3,15 @@
 <h1><u>G.O.A.T. Central</u></h1>
 <br />
 <h2>Who is the Greatest Of All Time? Enter your favourite athlete below!</h2>
+
+<br />
+
+<%= @players.each do |player| %>
+	<div class="happy-box col-8 offset-2">
+		<h1><%= player.name %></h1>
+		<b>Team: <%= player.team %><b>
+		<p>Defining moment(s): <%= player.moment %></p>
+	</div>
+
+	<hr />
+<% end %>

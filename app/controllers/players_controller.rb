@@ -1,7 +1,7 @@
 class PlayersController < ApplicationController
 
 	def index
-		@places = Place.all
+		@players = Player.all
 	end
 
 	def new
