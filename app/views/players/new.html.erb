@@ -1,7 +1,8 @@
 <br />
 <div class="happy-box col-8 offset-2">
 <h3>Nominate Your Sportsperson!</h3>
-<br />
+<small><font color="red">(Please enter at least 5 characters in each box.)</font></small>
+<br /><br />
 <%= simple_form_for @player do |x| %>
 	<%= x.input :name, :label => "Name: " %>
 	<%= x.input :team, :label => "Team(s): " %>
