@@ -1,14 +1,16 @@
 h1 {
+	font-family: 'chunkfiveroman', sans-serif;
 	text-align: center;
-	color: #114470;
+	color: #CFD825;
 	font-size: 40px;
 	font-weight: normal;
 	margin-bottom: 0;
 }
 
 h2 {
+ 	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 	text-align: center;
-	color: blue;
+	color: #7DE7EB;
 	font-size: 25px;
 	font-weight: bold;
 	margin-bottom: 0;
@@ -20,5 +22,5 @@ p {
 }
 
 body {
-  background: image_url('sun-pattern.png');
+  background: image_url('dark-paths.png');
 }
