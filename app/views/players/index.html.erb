@@ -5,12 +5,16 @@
 <h2>Who is the Greatest Of All Time? Enter your favourite athlete below!</h2>
 
 <br />
+<center>
+<%= link_to 'Submit Here!', new_player_path, class: 'btn btn-primary' %>
+</center>
+<br />
 
-<%= @players.each do |player| %>
+<% @players.each do |player| %>
 	<div class="happy-box col-8 offset-2">
-		<h1><%= player.name %></h1>
-		<b>Team: <%= player.team %><b>
-		<p>Defining moment(s): <%= player.moment %></p>
+		<h3><b><%= player.name %></b></h3>
+		<h5>Team: <%= player.team %></h5>
+		<small><%= player.moment %></small>
 	</div>
 
 	<hr />
