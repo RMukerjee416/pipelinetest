@@ -1,4 +1,11 @@
 <br />
 <div class="happy-box col-8 offset-2">
 <h3>Nominate Your Sportsperson!</h3>
+<br />
+<%= simple_form_for @player do |x| %>
+	<%= x.input :name %>
+	<%= x.input :team %>
+	<%= x.input :moment %>
+	<%= x.submit 'Enter!', class: 'btn btn-success' %>
+<% end %>
 </div>

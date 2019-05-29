@@ -17,8 +17,8 @@ ActiveRecord::Schema.define(version: 2019_05_29_050416) do
 
   create_table "players", force: :cascade do |t|
     t.string "name"
-    t.text "time"
-    t.string "moment"
+    t.string "team"
+    t.text "moment"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
