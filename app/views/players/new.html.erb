@@ -3,9 +3,9 @@
 <h3>Nominate Your Sportsperson!</h3>
 <br />
 <%= simple_form_for @player do |x| %>
-	<%= x.input :name %>
-	<%= x.input :team %>
-	<%= x.input :moment %>
+	<%= x.input :name, :label => "Name: " %>
+	<%= x.input :team, :label => "Team(s): " %>
+	<%= x.input :moment, :label => "Accomplishments: " %>
 	<%= x.submit 'Submit!', class: 'btn btn-success' %>
 <% end %>
 </div>
