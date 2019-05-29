@@ -9,8 +9,12 @@ class PlayersController < ApplicationController
 	end
 
 	def create
-		Player.create(player_params)
-		redirect_to root_path
+		@player = Player.create(player_params)
+		if @player.invalid?
+			render :new, status: :unprocessable_entity
+		else
+			redirect_to root_path
+		end
 	end
 
 	private
