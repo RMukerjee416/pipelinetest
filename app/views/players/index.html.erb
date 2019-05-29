@@ -1,21 +1,20 @@
 <br />
-<br />
 <h1><u>G.O.A.T. Central</u></h1>
 <br />
 <h2>Who is the Greatest Of All Time? Enter your favourite athlete below!</h2>
 
 <br />
 <center>
-<%= link_to 'Submit Here!', new_player_path, class: 'btn btn-primary' %>
+<%= link_to 'Enter Here!', new_player_path, class: 'btn btn-primary' %>
 </center>
 <br />
 
 <% @players.each do |player| %>
 	<div class="happy-box col-8 offset-2">
-		<h3><b><%= player.name %></b></h3>
-		<h5>Team: <%= player.team %></h5>
-		<small><%= player.moment %></small>
+		<h3><b><font color="#21498E"><%= player.name %></font></b></h3>
+		<i><%= player.team %></i>
+		<br /><br />
+		<h6><%= player.moment %></h6>
 	</div>
-
-	<hr />
+<br />
 <% end %>
