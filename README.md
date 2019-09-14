@@ -1,24 +1,21 @@
-# README
+# G.O.A.T. Central
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app allows a visitor to enter details about a favourite athlete. It was built using Ruby on Rails. PostgreSQL was used for the database. Bootstrap helped with the design.
 
-Things you may want to cover:
+## Click [here](https://athletes-raj-mukerjee.herokuapp.com) for the live app.
 
-* Ruby version
+This is the home page:
 
-* System dependencies
+![Home Screenshot](./app/assets/images/Athlete1.png)
 
-* Configuration
+This is the submission form:
 
-* Database creation
+![Form Screenshot](./app/assets/images/Athlete2.png)
 
-* Database initialization
+## Tools & Resources
 
-* How to run the test suite
+* [Ruby on Rails](https://rubyonrails.org/) 
+* [PostgreSQL](https://www.postgresql.org/)
+* [Bootstrap](https://getbootstrap.com/)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Enjoy your day!
